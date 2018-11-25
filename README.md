@@ -2,9 +2,9 @@
 
 SimFin offers a free dataset with fundamentals data (incomes, profit, taxes, EBITDA, etc). This is available to download as a CSV file.
 
-To ease the data import I dediced to convert data to a JSON file. This script read the CSV file from `stdin` and prints the JSON on `stdout`.
+I wanted to transform the dataset to JSON format. This script reads the CSV from `stdin` and returns the JSON in `stdout`.
 
-It was tested wit the CSV generated with the following options:
+It was tested with a CSV generated with the following options:
 
 - Dataset: Fundamentals (Detailed)
 - Update fundamentals & rations on: Reporting period
