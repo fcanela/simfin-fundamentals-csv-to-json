@@ -1,0 +1,11 @@
+{
+  "name": "simfin-fundamentals-to-json",
+  "version": "1.0.0",
+  "description": "SimFin Fundamentals CSV to JSON converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Canela <fcanela>",
+  "license": "MIT"
+}
