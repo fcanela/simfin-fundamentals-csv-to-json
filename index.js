@@ -10,7 +10,7 @@ reader.on('close', () => console.log(JSON.stringify(result)));
 
 let passedFirstLine = false;
 reader.on('line', (line) => {
-    if (!passedFirstLine == 0) {
+    if (!passedFirstLine === false) {
         passedFirstLine = true;
         return;
     }
